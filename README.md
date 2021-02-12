@@ -6,5 +6,5 @@ Li, Z., Luo, Z., Zhang, L.-C., & Wang, C.-H. (2021). Topological design of penta
 
 Example:  
 [barNode,nodeCoor,nDesVar] = GenerateGS(5,5,5);  
-designVar=zeros(1,405); designVar(300)=1;
+designVar=zeros(1,405); designVar(300)=1;  
 isActive = ActiveBar(barNode,nodeCoor,nDesVar,designVar);
